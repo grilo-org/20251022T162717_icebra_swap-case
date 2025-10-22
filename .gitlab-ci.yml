@@ -1,0 +1,7 @@
+include:
+  - project: 'engineering/engineering-ci-cd'
+    ref: 'master'
+    file: '.gitlab-ci.yml'
+
+default:
+  image: image.ceg.com/docker-base-images
